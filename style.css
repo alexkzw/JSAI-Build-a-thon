@@ -1,0 +1,264 @@
+body {
+  background: #f9f9f9;
+  font-family: 'Covered By Your Grace', cursive;
+  color: #222;
+  margin: 0;
+  padding: 30px 0;
+}
+
+.container {
+  width: 800px;
+  margin: auto;
+  background: #fff;
+  border: 3px solid #aaa;
+  border-radius: 10px;
+  box-shadow: 2px 4px 16px rgba(0,0,0,0.08);
+  padding: 36px 28px 28px 28px;
+}
+
+header h1 {
+  text-align: center;
+  font-size: 2.7em;
+  margin-bottom: 16px;
+  letter-spacing: 2px;
+  text-shadow: 1px 2px 0 #e0e0e0;
+  border: 3px solid #bbb;
+  border-radius: 15px;
+  margin-top: 0;
+  padding: 8px 0 4px 0;
+  width: 100%;
+}
+
+section {
+  border: 2px solid #bbb;
+  border-radius: 10px;
+  margin-bottom: 36px;
+  padding: 18px 16px 14px 16px;
+  background: rgba(248, 248, 248, 0.7);
+}
+
+h2 {
+  margin-top: 0;
+  font-size: 1.7em;
+  margin-bottom: 8px;
+  letter-spacing: 2px;
+  text-decoration: underline;
+}
+
+.subtitle {
+  font-size: 1.1em;
+  margin-bottom: 22px;
+  color: #777;
+  font-style: italic;
+}
+
+.products {
+  display: flex;
+  justify-content: flex-start;
+  gap: 36px;
+}
+
+.product {
+  width: 160px;
+  text-align: center;
+  border: 2px solid #bbb;
+  border-radius: 8px;
+  padding: 14px 6px 8px 6px;
+  background: #fff;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.04);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.product-info {
+  font-size: 1.06em;
+  margin-top: 10px;
+}
+
+/* Drawn icons (approximating sketch look) */
+.icon {
+  width: 70px;
+  height: 70px;
+  background: #fff;
+  border: 2px solid #bbb;
+  border-radius: 4px;
+  margin-bottom: 8px;
+  position: relative;
+}
+
+.tent1::after {
+  content: '';
+  position: absolute;
+  left: 13px; top: 16px;
+  width: 44px; height: 34px;
+  border: 2px solid #333;
+  border-bottom-left-radius: 24px;
+  border-bottom-right-radius: 24px;
+  border-top: none;
+  background: none;
+}
+.tent1::before {
+  content: '';
+  position: absolute;
+  left: 33px; top: 39px;
+  width: 3px; height: 15px;
+  background: #333;
+}
+
+.tent2::after {
+  content: '';
+  position: absolute;
+  left: 10px; top: 20px;
+  width: 50px; height: 32px;
+  border: 2px solid #333;
+  border-radius: 12px 12px 20px 20px/20px 20px 12px 12px;
+}
+.tent2::before {
+  content: '';
+  position: absolute;
+  left: 32px; top: 34px;
+  width: 7px; height: 16px;
+  border: 2px solid #333;
+  border-radius: 0 0 8px 8px;
+  background: none;
+}
+
+.tent3::after {
+  content: '';
+  position: absolute;
+  left: 8px; top: 20px;
+  width: 54px; height: 32px;
+  border: 2px solid #333;
+  border-radius: 13px 13px 23px 23px/23px 23px 13px 13px;
+}
+.tent3::before {
+  content: '';
+  position: absolute;
+  left: 34px; top: 37px;
+  width: 24px; height: 13px;
+  border: 2px solid #333;
+  border-radius: 0 0 10px 10px;
+  background: none;
+}
+
+.backpack1::after {
+  content: "";
+  position: absolute;
+  left: 28px; top: 22px;
+  width: 14px; height: 26px;
+  border-radius: 8px 8px 10px 10px/10px 10px 12px 12px;
+  border: 2px solid #333;
+  background: none;
+}
+.backpack1::before {
+  content: "";
+  position: absolute;
+  left: 21px; top: 30px;
+  width: 28px; height: 12px;
+  border-radius: 10px 10px 10px 10px;
+  border: 2px solid #333;
+  background: none;
+}
+
+.backpack2::after {
+  content: "";
+  position: absolute;
+  left: 32px; top: 20px;
+  width: 10px; height: 32px;
+  border-radius: 7px 7px 10px 10px/10px 10px 8px 8px;
+  border: 2px solid #333;
+  background: none;
+}
+.backpack2::before {
+  content: "";
+  position: absolute;
+  left: 26px; top: 40px;
+  width: 18px; height: 5px;
+  border-radius: 4px 4px 4px 4px;
+  border: 2px solid #333;
+  background: none;
+}
+
+.backpack3::after {
+  content: "";
+  position: absolute;
+  left: 20px; top: 10px;
+  width: 28px; height: 36px;
+  border-radius: 12px 12px 16px 16px/16px 16px 14px 14px;
+  border: 2px solid #333;
+  background: none;
+}
+.backpack3::before {
+  content: "";
+  position: absolute;
+  left: 33px; top: 15px;
+  width: 4px; height: 15px;
+  border-radius: 2px 2px 2px 2px;
+  border: 2px solid #333;
+  background: none;
+}
+
+.jacket::after {
+  content: "";
+  position: absolute;
+  left: 20px; top: 17px;
+  width: 32px; height: 35px;
+  border-radius: 14px 14px 20px 20px/14px 14px 20px 20px;
+  border: 2px solid #333;
+  background: none;
+}
+.jacket::before {
+  content: "";
+  position: absolute;
+  left: 31px; top: 19px;
+  width: 8px; height: 14px;
+  border-radius: 8px 8px 8px 8px;
+  border: 2px solid #333;
+  background: none;
+}
+
+.pants::after {
+  content: "";
+  position: absolute;
+  left: 29px; top: 16px;
+  width: 12px; height: 34px;
+  border-left: 2px solid #333;
+  border-right: 2px solid #333;
+  background: none;
+}
+.pants::before {
+  content: "";
+  position: absolute;
+  left: 20px; top: 16px;
+  width: 32px; height: 12px;
+  border-radius: 10px 10px 10px 10px;
+  border-bottom: 2px solid #333;
+  background: none;
+}
+
+.boots::after {
+  content: "";
+  position: absolute;
+  left: 16px; top: 44px;
+  width: 16px; height: 18px;
+  border-radius: 6px 6px 9px 9px;
+  border: 2px solid #333;
+  background: none;
+}
+.boots::before {
+  content: "";
+  position: absolute;
+  left: 38px; top: 44px;
+  width: 16px; height: 18px;
+  border-radius: 6px 6px 9px 9px;
+  border: 2px solid #333;
+  background: none;
+}
+
+/* Responsive tweaks (optional for mobile) */
+@media (max-width: 900px) {
+  .container { width: 99vw; }
+  .products { flex-direction: column; gap: 18px;}
+  .product { width: 98%; }
+}
